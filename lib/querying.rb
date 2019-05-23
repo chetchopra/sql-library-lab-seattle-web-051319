@@ -8,7 +8,7 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "select characters.species, max(count(characters.species) as cnt from series
+  "select characters.species, max(count(characters.species)) as cnt from series
   join characters on series.id = characters.series_id
 ;"
 end

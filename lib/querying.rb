@@ -20,7 +20,7 @@ end
 def select_series_title_with_most_human_characters
   "select series.title, characters.species from series
    join characters on series.id = characters.series_id
-   where characters.species = 'human"
+   where characters.species = 'human'"
    
 end
 
